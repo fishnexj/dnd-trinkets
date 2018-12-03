@@ -1,2 +1,2 @@
 # dnd-trinkets
-web-application for enhancing Dungeons &amp; Dragons play
+a basic web app that adds a little something to DnD 5e play

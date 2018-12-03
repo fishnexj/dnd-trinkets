@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+<!-- nothing here -->
+{% block content %}
+	
+<hr>	
+    <form action="" method="post" novalidate>
+        {{ form.hidden_tag() }}
+        {% for subfield in form.radio %}
+            {{ subfield }}
+            {{ subfield.label }}
+        {% endfor %}
+        <br>
+        {{ form.submit() }}
+    </form>
+<br>
+{% for t in ReturnedTrinkets %}
+    {{ t }}
+    <br>
+{% endfor %}
+
+<hr>
+
+{% endblock %}

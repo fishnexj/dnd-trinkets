@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  		<title>Trinket Table</title>
+	  		<!--<link rel="stylesheet" href="http://stash.compjour.org/assets/css/foundation.css">-->
+	</head>
+	<body style="text-align:center; margin:10%;">  
+	   	<h3>Table of all Trinkets</h3>
+		
+		<table class="table">
+			<tr>
+				{% for field in trinkets[field].keys() %}
+				<th>{{ field }}</th>
+				{% endfor %}
+			</tr>
+				{% for field in trinkets[field] %}
+			<tr>
+				<td>{{ field['id'] }}</td>
+			</tr>
+				{% endfor %}
+		</table>
+		
+	</body>
+</html>
