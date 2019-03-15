@@ -70,7 +70,7 @@ class genRandTrinkForm(FlaskForm):
 # routes for web app
 #--------------------------------
 # home page
-@app.route('/')
+@app.route('/', methods=['get','post'])
 @app.route('/index', methods=['get','post'])
 def index():
 	form = genRandTrinkForm()
