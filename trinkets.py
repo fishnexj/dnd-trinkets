@@ -31,7 +31,7 @@ data = [
 	},
 	{
 		'id':'5'
-		,'trinket':'Your mom\'s vagina'
+		,'trinket':'Something NSFW'
 		,'adult_flag':True
 		,'bad_flag':True
 	},
