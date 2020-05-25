@@ -6,7 +6,7 @@ import trinkets #this is temp data
 #print(trinkets.data)
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'katyb3e1smyfav0re3'
+app.config['SECRET_KEY'] = #neverHardCodeUrScrts
 
 
 #--------------------------------
